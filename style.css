@@ -50,20 +50,19 @@ h2 {
 }
 
 .input-box label {
-  position: absolute;
-  top: 50%;
-  left: 5px;
-  transform: translate(-50%);
   font-size: 1em;
   color: #fff;
-  pointer-events: none;
-  text-indent: 10px;
   transition: 0.5s;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -310px;
 }
 
 .input-box input:focus ~ label,
 .input-box input:valid ~ label {
-  top: -5px;
+  top: -25px;
+  margin-left: -305px;
+  transition: 0.3s;
 }
 
 .input-box input {
