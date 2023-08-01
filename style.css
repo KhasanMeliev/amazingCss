@@ -122,6 +122,9 @@ button {
   color: #fff;
   text-align: center;
   margin: 25px 0 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .register-link p a {
